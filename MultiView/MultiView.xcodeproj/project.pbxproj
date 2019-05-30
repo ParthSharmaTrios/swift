@@ -14,6 +14,7 @@
 		6AFD4290229F42FA000E7D4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFD428E229F42FA000E7D4C /* LaunchScreen.storyboard */; };
 		6AFD429B229F42FA000E7D4C /* MultiViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFD429A229F42FA000E7D4C /* MultiViewTests.swift */; };
 		6AFD42A6229F42FA000E7D4C /* MultiViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFD42A5229F42FA000E7D4C /* MultiViewUITests.swift */; };
+		6AFD42B6229F4CA0000E7D4C /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFD42B5229F4CA0000E7D4C /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6AFD42A1229F42FA000E7D4C /* MultiViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AFD42A5229F42FA000E7D4C /* MultiViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiViewUITests.swift; sourceTree = "<group>"; };
 		6AFD42A7229F42FA000E7D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AFD42B5229F4CA0000E7D4C /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		6AFD4279229F42F8000E7D4C = {
 			isa = PBXGroup;
 			children = (
+				6AFD42B5229F4CA0000E7D4C /* secondViewController.swift */,
 				6AFD4284229F42F8000E7D4C /* MultiView */,
 				6AFD4299229F42FA000E7D4C /* MultiViewTests */,
 				6AFD42A4229F42FA000E7D4C /* MultiViewUITests */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AFD4288229F42F8000E7D4C /* ViewController.swift in Sources */,
+				6AFD42B6229F4CA0000E7D4C /* secondViewController.swift in Sources */,
 				6AFD4286229F42F8000E7D4C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
