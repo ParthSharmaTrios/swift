@@ -9,14 +9,20 @@
 import UIKit
 
 class ImgViewController: UIViewController {
-
+    
+   
+    
+    
     @IBOutlet weak var ImgPlaceholder: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
 
         // Do any additional setup after loading the view.
     }
+  
     
     @IBAction func changeImg(_ sender: Any) {
         
@@ -28,10 +34,13 @@ class ImgViewController: UIViewController {
         
         //let sepiaParams: [String : Any] = [kCIInputImageKey : rawImg  ]
         
-        let  : [String : Any] = [kCIInputImageKey : rawImg, "inputSize" : CIVector(string:"[100 100]") , "inputCropAmount" : 1 , "inputCenterStretchAmount" : 1]
+        let cropParams : [String : Any] = [kCIInputImageKey : rawImg, "inputSize" : CIVector(string:"[100 100]") , "inputCropAmount" : 1 , "inputCenterStretchAmount" : 1]
         
         
-        let sepiaFilter = CIFilter(name: "CIStretchCrop", parameters: cropParams)
+
+
+
+ c         let sepiaFilter = CIFilter(name: "CIStretchCrop", parameters: cropParams)
         
         let context = CIContext(options: nil)
         
@@ -44,6 +53,8 @@ class ImgViewController: UIViewController {
                 
             }
         }
+        
+       
 
     }
     
